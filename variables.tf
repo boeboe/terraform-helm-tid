@@ -112,7 +112,7 @@ variable "istio_istio_operator_settings" {
   default     = {}
 }
 
-variable "istio_istiod_operator_enabled" {
+variable "istio_istio_operator_enabled" {
   description = "enable helm install of istio istio-operator"
   type        = bool
   default     = false

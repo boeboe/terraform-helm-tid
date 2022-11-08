@@ -103,7 +103,7 @@ Example output:
 
 ``` hcl
 istio_istiod_helm_metadata = {
-  "app_version" = "1.14.4"
+  "app_version" = "1.14.4-tetrate-multiarch-v1"
   "chart" = "istiod"
   "name" = "istio-istiod"
   "namespace" = "istio-system"
@@ -111,12 +111,29 @@ istio_istiod_helm_metadata = {
   "values" = "{\"pilot\":{\"autoscaleMax\":4,\"autoscaleMin\":2}}"
   "version" = "1.14.4"
 }
-
 ```
 
-## More information
+## Versions
 
-TBC
+Available container image versions, to be set with the `global.tag` helm setting per chart:
+
+| global.tag |
+|------------|
+| 1.14.4-tetratefips-v0 |
+| 1.14.4-tetratefips-v0-debug |
+| 1.14.4-tetratefips-v0-distroless |
+| **1.14.4-tetrate-multiarch-v1** (default) |
+| 1.14.4-tetrate-multiarch-v1-debug |
+| 1.14.4-tetrate-multiarch-v1-distroless |
+| 1.14.4-tetrate-multiarch-v1-amd64 |
+| 1.14.4-tetrate-multiarch-v1-amd64-debug |
+| 1.14.4-tetrate-multiarch-v1-amd64-distroless |
+| 1.14.4-tetrate-multiarch-v1-arm64 |
+| 1.14.4-tetrate-multiarch-v1-arm64-debug |
+| 1.14.4-tetrate-multiarch-v1-arm64-distroless |
+| 1.14.4-tetrate-v0 |
+| 1.14.4-tetrate-v0-debug |
+| 1.14.4-tetrate-v0-distroless |
 
 ## License
 
