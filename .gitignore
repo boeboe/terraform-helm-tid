@@ -1,0 +1,12 @@
+# Local .terraform directories
+**/.terraform
+**/.terraform/*
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+# .hcl files
+**/*.hcl
+# Kubeconfig
+**/kubeconfig.yaml
+# VSCode
+.vscode/
