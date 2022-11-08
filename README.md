@@ -115,7 +115,7 @@ istio_istiod_helm_metadata = {
 
 ## Versions
 
-Available versions, to be set with the `global.tag` helm setting per chart:
+Available container image versions, to be set with the `global.tag` helm setting per chart:
 
 | global.tag |
 |------------|

@@ -5,10 +5,12 @@ locals {
   istio_istiod_settings = {
     "pilot.autoscaleMin" = 2
     "pilot.autoscaleMax" = 4
+    "global.tag"         = "1.14.4-tetratefips-v0-distroless"
   }
   istio_gateway_settings = {
     "autoscaling.minReplicas" = 2
     "autoscaling.maxReplicas" = 4
+    "global.tag"              = "1.14.4-tetratefips-v0-distroless"
   }
 }
 
